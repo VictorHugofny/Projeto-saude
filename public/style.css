@@ -1,0 +1,16 @@
+p{
+    color: rgb(0, 0, 0);
+}
+
+.background{
+    background-image: url(/public/imgs/background.jpg);
+}
+.links{
+    padding: 10px;
+}
+.grid-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;}
