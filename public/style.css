@@ -65,7 +65,7 @@ h2{
 body{
     margin: 0%;
     background-color: black;
-    background-image:url(/public/imgs/pattern.png);
+    background-image:url(./imgs/pattern.png);
 }
 body::-webkit-scrollbar{
     overflow:hidden;
