@@ -1,11 +1,11 @@
 p{  
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
-    font-size:160%;
+    font-size:110%;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    width: 32em;
+    width: 75%;
 }
 a{  
     font-size: 150%;
@@ -37,24 +37,26 @@ header{
     grid-column-gap: 50px;}
 .flex-container{
     margin:0%;
+    width: 100%;
     padding-top: 60px;
     display: flex;
     flex-direction: column;
 }
 .flex-container > div  {
     backdrop-filter: blur(2px);
+    width: 100%;
     background-color: rgba(3, 3, 54, 0.637);
     text-align: center;
 }
 .flex-container > div > h1{
     margin: 0%;
-    font-size: 50px;
+    font-size: 35px;
     color:rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.404);
 }
 .flex-container > div > img{
-    width: 230px;
-    height: 180px;
+    width: 150px;
+    height: 120px;
 }
 
 h2{
