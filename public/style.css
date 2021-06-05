@@ -1,15 +1,16 @@
 p{  
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(0, 0, 0);
-    font-size:200%;
+    color: rgb(255, 255, 255);
+    font-size:160%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 32em;
 }
-a{
-    font-size: 200%;
+a{  
+    font-size: 150%;
 }
-body{
-    padding-top: 15px;
-    background-color: rgb(243, 253, 235);
-}
+
 header{
     display: none;
 }
@@ -17,31 +18,57 @@ header{
     left: 50%;
     transform: translateX(-50%);
     position:absolute;
-    font-family:monospace;
+    font-family:sans-serif;
+
 }
 .links a{
-    color:rgb(0, 0, 0);
-    font-size: 200%;
-    font-style:initial;
+    font-stretch: condensed;
+    font-weight:bold;
+    padding-top: 10px;
+    font-style:normal;
+    color:rgb(16, 1, 66);
     text-align: center;
     text-decoration: none;
 }
 .flex-links{
-    padding: 10px;
+    font-size: 20px;
+    margin-left: 50px;
     display: inline-grid;
-    flex-direction: wrap
-}
+    grid-column-gap: 50px;}
 .flex-container{
-    padding-top: 15px;
+    margin:0%;
+    padding-top: 60px;
     display: flex;
     flex-direction: column;
 }
 .flex-container > div  {
+    backdrop-filter: blur(2px);
+    background-color: rgba(3, 3, 54, 0.637);
     text-align: center;
 }
 .flex-container > div > h1{
+    margin: 0%;
     font-size: 50px;
-    color:lawngreen;
-    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.flex-container > div > img{
+    width: 230px;
+    height: 180px;
+}
+
+h2{
+    margin: 0%;
+    font-size: 150%;
+    color:ivory;
+}
+body{
+    margin: 0%;
+    background-color: black;
+    background-image:url(/public/imgs/pattern.png);
+}
+body::-webkit-scrollbar{
+    overflow:hidden;
+    margin-left: 0%;
 }
 
