@@ -50,6 +50,26 @@
             <h2>Esse é meu site para informaçoes basicas sobre o CoronaVirus, seja bem vindo para acessar</h2>
             <a href ="https://github.com/victorhugofny ">Clique aqui para ver meus codigos</a>
         </div>
-    </div>
-</body>
-</html>
+
+        <div class = "formulario">  
+            <h1>Teste online Covid-19</h1>
+            <form method="POST">
+            <input type="hidden" name="id" value="3">
+            <br><h2>SEU NOME</h2> <br><input type="text" name="nome"> <br> <br>
+            <h2>QUAIS SINTOMAS VOCÊ TEM?</h2> <br>
+
+                <select name="sintomas" multiple size="5">
+                <option value="Febre">Febre</option>
+                <option value="Tosse">Tosse</option>
+                <option value="ar">Falta de ar</option>
+                <option value="cheiro">Sentir menos cheiro das coisas</option>
+                <option value="gosto">Sentir menos gosto das coisas</option>
+                </select>
+
+                <br>
+                <br>
+            <button formaction="http://localhost:8080/teste">Enviar</button>
+            <br><br><br>
+            </form>
+            </div>
+        </div>

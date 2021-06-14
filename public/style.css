@@ -77,3 +77,16 @@ body::-webkit-scrollbar{
     margin-left: 0%;
 }
 
+h3{
+    color: azure;
+    font-weight:bold;
+    padding-top: 15px;
+    font-style:normal;
+    text-align: center;
+    text-decoration: none;
+}
+select{
+    overflow: hidden;
+    
+}
+
